@@ -18,11 +18,23 @@ body {
     display: none; 
 }
 
-container {
-	width: 800px;
-	margin: 0 auto;
-	padding: 0;
+.home {
+	color: white;
+	font-family: Avenir, sans-serif;
+	position: fixed;
+	top: 10px;
+	right: 100px;
+	width: 50px;
+	font-size: 14px;
+
 }
+
+.home a {
+	color: white;
+	text-decoration: none;
+}
+.home a:hover {	color: yellow; }
+.home a:visited { color: white; }
 
 header { position:relative; }
 
@@ -67,16 +79,12 @@ ol {
 .link {
 	color: white;
 	list-style: none;
+	text-decoration:none;
 }
 
-.link a { color: white;}
-.link a:hover {	color: yellow; }
+.link a {
+	color: white;
+	text-decoration: none;
+}
 .link a:visited { color: white; }
-.link a:active { color: yellow; }
-
-.active {
-	font-weight: bold;
-	background: black;
-}
-
-home-header { color: white; }
+.link a:hover {	color: yellow; }
